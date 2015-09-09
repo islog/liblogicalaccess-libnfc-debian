@@ -10,7 +10,7 @@ Package: liblogicalaccess-libnfc-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, liblogicalaccess (= ${binary:Version}), debhelper (>= 7)
+Depends: ${misc:Depends}, liblogicalaccess-libnfc (= ${binary:Version}), debhelper (>= 7)
 Description: LibLogicalAccess plugin to use NFC readers supported by LibNFC project - Symbols (debug)
  LibLogicalAccess library provides low level commands access
  and high level generic abstraction for several chip and reader.
@@ -21,7 +21,7 @@ Description: LibLogicalAccess plugin to use NFC readers supported by LibNFC proj
 Package: liblogicalaccess-libnfc-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libnfc-dev, liblogicalaccess-dev (= ${binary:Version})
+Depends: ${misc:Depends}, libnfc-dev, liblogicalaccess-libnfc (= ${binary:Version})
 Description: LibLogicalAccess plugin to use NFC readers supported by LibNFC project - Headers (dev)
  LibLogicalAccess library provides low level commands access
  and high level generic abstraction for several chip and reader.
